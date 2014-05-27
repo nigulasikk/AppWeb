@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="AppWeb:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/AppWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AppWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="junit4" module-name="AppWeb" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="junit-4.8.2" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/decorators.xml" />
+      </element>
+      <element id="javaee-facet-resources" facet="AppWeb/web/Web" />
+    </root>
+  </artifact>
+</component>

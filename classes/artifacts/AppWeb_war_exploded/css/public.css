@@ -1,0 +1,56 @@
+.footer{text-align: center;padding: 15px 0;
+margin-top: 70px;
+border-top: 1px solid #e5e5e5;
+background-color: #f5f5f5;}
+.foot_text{font:18px/60px '宋体';text-align:center;background:#f5f5f5;height: 60px;}
+
+img.fire-thumbnail-small{max-height: 80px;max-width: 80px}
+img.fire-thumbnail-mini{max-height: 50px;max-width: 50px}
+
+.icon{background-image: url("../image/many.png");background-repeat:no-repeat;width:24px;height:24px;display:inline-block;cursor:pointer;}
+.icon_modify{background-position: -246px -206px}
+.icon_detail{background-position: -244px -441px}
+.icon_delete{background-position: -15px -256px;}
+.icon_recommend{background-position: -16px -75px}
+.icon_point{background-position: 1px -515px}
+.icon_money{background-position: -73px -517px}
+.icon_toright{width:16px;height:16px;background-position: -179px -266px}
+
+.icon_text{background-image: url("../image/many.png");background-repeat:no-repeat;width:12px;height:12px;display:inline-block;position:relative;top:2px;}
+.icon_text_rejected{background-position:0 -396px}
+.icon_text_approved{background-position:-46 -396px}
+.icon_text_notDealed{background-position:-414px -396px}
+.icon_text_Dealing{background-position:-138px -396px}
+
+.icon_link{background-image: url("../image/many.png");background-repeat:no-repeat;width:12px;height:12px;display:inline-block;position:relative;top:2px;}
+.icon_link_edit{background-position:-321px -31px;}
+.icon_link_create{background-position:0px -56px;}
+/*
+.icon_link_detail{background-position:0px -56px;}
+*/
+
+.icon_bt{background-image: url("../image/many.png");background-repeat:no-repeat;width:12px;height:12px;display:inline-block;position:relative;top:1px;}
+.icon_bt_edit{background-position:0 -265px;}
+.icon_bt_add{background-position:-92px -265px;}
+.icon_bt_search{background-position:-368px -108px}
+.icon_bt_selectall{background-position:-91px -109px}
+.icon_bt_selectopp{background-position:-139px -109px}
+.icon_bt_download{background-position:-369px -343px}
+
+.icon_16{background-image: url("../image/many.png");background-repeat:no-repeat;width:16px;height:16px;display:inline-block;position:relative;top:1px;}
+.icon_16_problem{background-position:-295px -234px}
+.icon_16_gear{background-position:-20px -104px}
+.icon_16_worker{background-position:-296px 0px}
+
+/* mask layer 遮罩层 */
+.loadmask {z-index: 100;position: absolute;top:0;left:0;-moz-opacity: 0.5;opacity: .50;
+    filter: alpha(opacity=50);background-color: #CCC;width: 100%;height: 100%;zoom: 1;}
+.loadmask-msg {z-index: 20001;position: absolute;top: 0;left: 0;border:1px solid #6593cf;
+    background: #c3daf9;padding:2px;}
+.loadmask-msg div {padding:5px 10px 5px 25px;background: #fbfbfb url('../image/loading1.gif') no-repeat 5px 5px;
+    line-height: 16px;border:1px solid #a3bad9;color:#222;
+    font:normal 11px tahoma, arial, helvetica, sans-serif;cursor:wait;}
+.masked {overflow: hidden !important;}
+.masked-relative {position: relative !important;}
+.masked-hidden {visibility: hidden !important;}
+/* end mask layer 遮罩层 */

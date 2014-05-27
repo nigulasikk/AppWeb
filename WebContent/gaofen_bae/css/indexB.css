@@ -1,0 +1,39 @@
+
+/*通用*/
+body { font-size: 13px;color: #333;background: #ffffff;line-height: 1.7;font-family:  "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family:  "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
+.title-h1 { color: #fff; padding: 60px 0 10px; text-align: center; margin: 0;font-size: 50px; border-bottom: 4px solid #fff; font-weight: 600; display: block; width: 440px; margin: 0 auto;  }
+.titleBackground-share{background-image:url("../images/cinema4.gif");background-repeat:no-repeat;background-size:100% ;background-position: 0px -320px;height:400px;}
+.titleBackground-index{background-image:url("../images/background2.jpg");background-repeat:no-repeat;background-size:100% ;background-position: 0px 0px;height:400px;}
+.titleBackground-aboutus{background-image:url("../images/zhiquanbuilding.JPG");background-repeat:no-repeat;background-size:100% ;background-position: 0px 0px;height:400px;}
+.weight-600{font-weight: 600;}
+.foot{color: #dcdcdc;font-size: 12px;text-align: center;margin-top: 40px;}
+/*首页*/
+section#introduce .col img {  border-radius: 2px;margin-bottom: 20px;width: 110px;}
+.title-dark{font-size: 20px;background: rgba(0,0,0,.4);width: 600px;display: inline-block;}
+.dark{background: rgba(0, 0, 0, 0.38);height: 100%;width: 100%;}
+.scale:hover { cursor: pointer; -webkit-transform: scale(1.1);-moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2);
+}
+/*产品*/
+.productBackground{padding-top: 100px;padding-left: 250px;background-image:url("../images/background22.jpg");background-repeat:no-repeat;background-size:cover;height: 400px;}
+.productBackground2{padding-top: 100px;padding-left: 250px;background-image:url("../images/background33.jpg");background-repeat:no-repeat;background-size:cover;height: 400px;}
+.productBackground3{padding-top: 100px;padding-left: 250px;background-image:url("../images/background44.jpg");background-repeat:no-repeat;background-size:cover;height: 400px;}
+section#product_introduce .big-p{margin-top: 30px;margin-bottom: 30px;font-weight: 600;color: #666666;font-size: 15px;}
+section#product_introduce .blue-p{color: #0099cc;font-size: 23px;}
+.section-title{border-bottom: solid #dcdcdc 1px;height: 60px;font-weight: 600;margin-top: 80px;}
+section#product_introduce div .row{margin-top: 60px;}
+section#product_introduce .col img{ border-radius: 2px;margin-bottom: 20px;width: 110px;}
+
+.downloadButton{margin-top:50px;font-size:30px;border:1px #d3d3d3 solid;width:300px;border-radius: 2px;font-weight:600;color:#f8f8ff;text-align: center;-moz-border-radius: 20px;-webkit-border-radius: 20px;}
+.downloadButton:hover{cursor:pointer;border:2px white solid;color:#ffffff;}
+.neilaoweitu:hover,.flag,.shareHappiness:hover{margin-top:10px;}
+.flag{display: inline-block;width: 10px;height: 50px;}
+/*关于我们*/
+section#introduce_us p { font-size: 1em; line-height: 1.5;    color: #21272d;    font-weight: 400;    margin: 0 0 1.5em;   text-align: left;}
+.photo {float: left;border-radius: 62px;    height: 48px;    margin-top: 0;}
+/*技术分享*/
+.goto{bottom: 10%;right:5%;overflow: hidden; cursor: pointer;-webkit-transition: opacity; transition: opacity; position: fixed;  display: block;width:150px;text-align:center;}
+/* .goto .up{background: rgba(0, 0, 0, 0.38);}
+.goto .down{margin-top:5px;background: rgba(0, 0, 0, 0.38);width:100px;} */
+.goto .up{float:left;width:50px;height:50px;}
+.goto .down{float:right;width:50px;height:50px;}
